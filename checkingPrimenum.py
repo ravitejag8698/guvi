@@ -5,6 +5,7 @@ if n>1:
   for i in range(2,ceil(sqrt(n))+1):
     if n%i == 0:
       print('no')
+      break
   else:
     print('yes')
   
