@@ -1,6 +1,7 @@
 n = int(input())
 l = map(int,input().split())
-l_n = list(l)
-l_n.sort(reverse = True)
-s = ''.join(li)
+ls = list(l)
+ls.sort()
+rev = ls[::-1]
+s = ''.join(ls)
 print(int(s))
