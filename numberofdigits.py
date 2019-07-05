@@ -1,4 +1,4 @@
 num = int(input())
 num = str(num).strip()
-count = len(num)
-print(count)
+count1 = len(num)
+print(count1)
