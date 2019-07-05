@@ -9,5 +9,5 @@ for i in range(n):
 if(len(s) == 0):
   print(-1)
 else:
-  for x in s:
-    print(x,end=' ')
+  for z in s:
+    print(z,end=' ')
