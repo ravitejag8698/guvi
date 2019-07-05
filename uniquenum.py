@@ -11,7 +11,7 @@ for i in ls:
     else:
         
         dict[i] = 1
-for key,val in dict.tems():
+for key,val in dict.items():
     
     if val == 1:
         
