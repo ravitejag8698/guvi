@@ -1,7 +1,13 @@
 n = int(input())
 f = map(int,input().split())
-d = list(s)
+d = list(f)
+s = []
 for i in range(n):
   if (i == d[i]):
-    print(d[i],end = ' ')
-    
+    s.append(d[i])
+
+if(len(s) == 0):
+  print(-1)
+else:
+  for x in s:
+    print(x)
