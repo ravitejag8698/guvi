@@ -10,6 +10,6 @@ f = len(repeat)
 if(f==0):
   print('unique')
 else:
-  for x in repeat:
-    print(x,end=' ')
+  for z in repeat:
+    print(z,end=' ')
       
