@@ -7,6 +7,8 @@ for i in range(n):
     if li[i] == li[j]:
       k = li[i]
       repeat.append(k)
+repeat = set(repeat)
+repeat = list(repeat)
 f = len(repeat)
 if(f==0):
   print('unique')
