@@ -1,4 +1,4 @@
-d,f = map(int,input().split())
+d,f = map(str,input().split())
 if (d == 'Sunday' or d == 'Saturday'):
   print('yes')
 else:
