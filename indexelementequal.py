@@ -10,4 +10,4 @@ if(len(s) == 0):
   print(-1)
 else:
   for x in s:
-    print(x)
+    print(x,end=' ')
