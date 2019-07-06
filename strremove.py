@@ -1,3 +1,4 @@
+n = int(input())
 s = input()
 s = list(s)
 v = ['a','e','i','o','u']
