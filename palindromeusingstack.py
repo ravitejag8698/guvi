@@ -11,12 +11,14 @@ class Stack:
     
 s = input()
 p = Stack()
-while c in s:
+for c in s:
   p.push(c)
   
 reversed = ''
-while p.is_empty() is not True:
+i = 0
+while i<len(self.items):
   reversed = reversed+p.pop()
+  i+=1
 if s == reversed:
   print('YES')
 else:
