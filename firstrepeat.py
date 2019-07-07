@@ -7,7 +7,7 @@ for i in range(n):
     if d[i] == d[j]:
       k.append(d[i])
       break
-  break
+  
   
 if(len(k) == 0):
   print('unique')
