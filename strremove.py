@@ -1,5 +1,5 @@
 n = int(input())
-s = input()
+s = input().split()
 s = list(s)
 v = ['a','e','i','o','u']
 for i in s:
