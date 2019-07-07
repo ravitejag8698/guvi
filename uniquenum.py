@@ -11,9 +11,9 @@ for i in ls:
     else:
         
         dict[i] = 1
-for key,val in dict.items():
+for k,v in dict.items():
     
-    if val == 1:
+    if v == 1:
         
-        print(key,end=' ')
+        print(k,end=' ')
    
