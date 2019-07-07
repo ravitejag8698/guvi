@@ -1,7 +1,7 @@
 n = int(input())
-s = input().split()
+s = input()
 s = list(s)
-v = ['a','e','i','o','u']
+v = ['a','e','i','o','u','A','E','I','O','U]
 for i in s:
   if i in v:
     s.remove(i)
