@@ -1,5 +1,5 @@
 n = int(input())
-d = map(int,input().split())
+d = map(str,input().split())
 d = list(d)
 d = d[::-1]
 s = '->'
